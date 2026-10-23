@@ -2152,3 +2152,13 @@ Novos: 17 · mudaram: 0 · saíram: 0
 - novo: `tests/DMO.Alpha.Web.Tests/Controlo/PesoFolhaCarregamentoPageTests.cs :: PesoFolhaCarregamentoPageTests.SemSessaoOuSemModulo_NaoExecutaOCarregamentoDaFolha`
 
 Selo depois: `aa3a46108bd59cc6`
+
+## A-0091 · 2026-10-23 · ok-do-diogo
+
+Porquê: O Diogo pediu o PU na primeira fila e os Calibres por baixo do PU (na vertical), com o TP e o CS mais estreitos; o teste do browser passa a esperar os Calibres por baixo do PU em vez de por baixo do TP e do CS.
+Referência: cmsg_01A27e9ozcpoh4jdPRsuJbFyMLJyVMvSHt8nCnfDQJj14J, cmsg_01A27e9ozcpoh4jdPRsuJbFy5CvC5vHd3UG6j4st2ydTvC, cmsg_01A27e9ozcpoh4jdPRsuJbFyNGXdPSjqk8Vph85X5iBU3N
+Novos: 0 · mudaram: 1 · saíram: 0
+
+- mudou: `tests/visual/jobon_folha_browser.py`
+
+Selo depois: `14c37efac6213bfd`
